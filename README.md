@@ -66,14 +66,9 @@ XRP_SEED=your_xrp_seed
 ### Run the Backend Server
 
 `cd backend`
-`npm start`
 
-### Run the Backend Server
+`node server.js`
 
-```bash
-cd backend
-npm start
-```
 
 This will start the backend server on `http://localhost:5000`.
 
@@ -81,6 +76,7 @@ This will start the backend server on `http://localhost:5000`.
 
 ```bash
 cd ../frontend
+
 npm run dev
 ```
 
